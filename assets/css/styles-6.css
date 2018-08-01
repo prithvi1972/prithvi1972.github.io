@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Orbit - Responsive Resume/CV Template for Developers
  * Version: 1.0
  * Author: Xiaoying Riley
@@ -43,7 +43,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #4B6A78;
+  background: #009688;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -52,7 +52,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #4B6A78;
+  background: #009688;
   position: absolute;
   right: 0;
   width: 240px;
@@ -85,7 +85,7 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list .fa , .sidebar-wrapper .contact-list .far , .sidebar-wrapper .contact-list .fab {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
@@ -166,12 +166,12 @@ p {
   margin-top: 0;
   margin-bottom: 20px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title .fa, .main-wrapper .section-title .fas , .main-wrapper .section-title .fab {
   width: 30px;
   height: 30px;
   margin-right: 8px;
   display: inline-block;
-  color: #fff;
+  /*color: #fff;*/
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -180,10 +180,10 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2e4049;
+  /*background: #2e4049;*/
   text-align: center;
   padding-top: 8px;
-  font-size: 16px;
+  /*font-size: 16px;*/
   position: relative;
   top: -2px;
 }
@@ -291,5 +291,24 @@ p {
     top: 1px;
   }
 }
+.details {
+	text-align: justify-all;
+}
+.fab {
+	font-size: medium;
+	margin-right: 3px;
+}
+.interests-list li {
+	font-size: 11pt;
+}
+.rating {
+	display: block;
+	font-size: 10pt;
+	color: rgba(255,255,255,0.45);
+}
+.extras ul li {
+	margin: 3px 0;
+}
+
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
